@@ -1,0 +1,495 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/gun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62679
+Successfully changed project path to: D:/gun
+D:/gun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 72.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/gun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003976 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1152ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006903 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1977ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1581ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (557ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 5.648000 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.099300 ms MarkObjects: 5.189500 ms  DeleteObjects: 0.107800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_LOD0.FBX
+  artifactKey: Guid(109350814e8e4774cbc3fbf9433104d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_LOD0.FBX using Guid(109350814e8e4774cbc3fbf9433104d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b26d68f828701c9094dced03bf64147') in 0.545529 seconds 
+  Import took 0.550315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell_LOD0.FBX
+  artifactKey: Guid(cf069076716d43e429b8e45f1b7cc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell_LOD0.FBX using Guid(cf069076716d43e429b8e45f1b7cc1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718899d5ee622971cda544c0ce61a64c') in 0.064031 seconds 
+  Import took 0.068683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LowPoly.FBX
+  artifactKey: Guid(9a982ad9ff3ed3742be077d774f8dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LowPoly.FBX using Guid(9a982ad9ff3ed3742be077d774f8dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34132a4cec318fe5045222a3f4759beb') in 0.538925 seconds 
+  Import took 0.544619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab
+  artifactKey: Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Head.prefab using Guid(9e0ef2cf9cfc11c46bbe7f28b272f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474fad952a293d24dcc920d411c9cefe') in 0.019693 seconds 
+  Import took 0.024236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) LP.prefab
+  artifactKey: Guid(3c6265c3391baee4c93fd1c381f3d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) LP.prefab using Guid(3c6265c3391baee4c93fd1c381f3d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36fb104407a174c4450cf9e080b70e5') in 0.365134 seconds 
+  Import took 0.371078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper_v2.prefab
+  artifactKey: Guid(c8fd62ec06a546646878a10bd648ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper_v2.prefab using Guid(c8fd62ec06a546646878a10bd648ad01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdce15012d15f2c45b46e17baf94dc91') in 0.078857 seconds 
+  Import took 0.083456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762.FBX
+  artifactKey: Guid(b6d5efd261b7bd841aa9d0ffa7a958bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762.FBX using Guid(b6d5efd261b7bd841aa9d0ffa7a958bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90adbb312bc5edea65ce9f4f4c83cd9') in 0.091220 seconds 
+  Import took 0.097013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet (HQ).FBX
+  artifactKey: Guid(ef4c0855476ff6e4d8a68efb40d51045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet (HQ).FBX using Guid(ef4c0855476ff6e4d8a68efb40d51045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4e167f62a5cb5223037ec5a3ae502') in 0.049111 seconds 
+  Import took 0.053678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet.FBX
+  artifactKey: Guid(69fc11a3163826f4da0c0d93337f74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet.FBX using Guid(69fc11a3163826f4da0c0d93337f74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c009f294832c41caf0891bc4e7bc633') in 0.047115 seconds 
+  Import took 0.051656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet (LP).FBX
+  artifactKey: Guid(d0e5f6e1622f7d34c9de65eaf816afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet (LP).FBX using Guid(d0e5f6e1622f7d34c9de65eaf816afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdb6358f76404512653ca06b1dec17e') in 0.049032 seconds 
+  Import took 0.053588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper.prefab
+  artifactKey: Guid(a4571f10673d6734494ba25f01b70792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-Copper.prefab using Guid(a4571f10673d6734494ba25f01b70792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eaef3c2224c6b8515015dd54f98cea') in 0.039168 seconds 
+  Import took 0.043822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell.FBX
+  artifactKey: Guid(912f604d71a97be4099d56c9e7e99c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell.FBX using Guid(912f604d71a97be4099d56c9e7e99c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f335a9367ee1f1c6af9afad4585606c') in 0.074417 seconds 
+  Import took 0.079135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab
+  artifactKey: Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver (Shooting).prefab using Guid(37e98970f8baf7647b735d9036006f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00b16648e06c69d79c20c994fdd8bf2') in 0.191842 seconds 
+  Import took 0.197055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx
+  artifactKey: Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/45ACP Bullet.fbx using Guid(1319cfeb42068a446bc5d43ef1562670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b0ba6d4483d2634139f69bb3f2f8ce') in 0.079137 seconds 
+  Import took 0.083685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab
+  artifactKey: Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Magazine Base.prefab using Guid(71d42f13891e48c4487496fd15802eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559e2872bbe54236fcdf4aae2ba12663') in 0.245286 seconds 
+  Import took 0.249832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-DarkZinc.prefab
+  artifactKey: Guid(062c6fc650067834abcbfd3417e3940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-DarkZinc.prefab using Guid(062c6fc650067834abcbfd3417e3940f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb02777dfd5fd9254444a2dba3677e9') in 0.066182 seconds 
+  Import took 0.070826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19.prefab
+  artifactKey: Guid(25bb4917463548e4abbb2026a22b2361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19.prefab using Guid(25bb4917463548e4abbb2026a22b2361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e6e6346d7c6bcac4a619f9ba5fb01') in 0.790753 seconds 
+  Import took 0.797645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045 (LP).FBX
+  artifactKey: Guid(4f548ea9328f6224b9a422848318b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045 (LP).FBX using Guid(4f548ea9328f6224b9a422848318b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70d744d5510369238e42509cf926e05') in 0.090442 seconds 
+  Import took 0.119052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Handgun Base.prefab
+  artifactKey: Guid(a78a725941312494b930d664f3b315d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/M1911 Handgun Base.prefab using Guid(a78a725941312494b930d664f3b315d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a0338215ec228b508735a21cc16ded') in 0.022365 seconds 
+  Import took 0.027499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045 (HQ).FBX
+  artifactKey: Guid(70a019c0fdd9bfa46986ad6696e94a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045 (HQ).FBX using Guid(70a019c0fdd9bfa46986ad6696e94a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cd7653c38b4813bbaa021252f7c4be') in 0.087937 seconds 
+  Import took 0.112623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LOD0.FBX
+  artifactKey: Guid(611c4ef4154b1d64990ec7366ff3d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet762_LOD0.FBX using Guid(611c4ef4154b1d64990ec7366ff3d59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd7c8390a23f3e8c6ce6f08da90e62') in 0.099623 seconds 
+  Import took 0.127613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) HQ.prefab
+  artifactKey: Guid(881890da081606847a7cc72b5addce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc+v2) HQ.prefab using Guid(881890da081606847a7cc72b5addce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94f852b6996a2ac14a5a3fa8ef1ac4b') in 0.051368 seconds 
+  Import took 0.057177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx
+  artifactKey: Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Handgun.fbx using Guid(3d87184bf4725b841b26693d2234fffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67372e4e665d94536a4ac076eb2706ae') in 0.124256 seconds 
+  Import took 0.128884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19 Part 1.prefab
+  artifactKey: Guid(23af2131adbae854b89545cf88213fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19 Part 1.prefab using Guid(23af2131adbae854b89545cf88213fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13c7e9fd4a695fb9e594f19866d4d24') in 0.053921 seconds 
+  Import took 0.058836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet_LOD0.FBX
+  artifactKey: Guid(0cf8d58a4e852cf4a9eb345d1dd540ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Bullet_LOD0.FBX using Guid(0cf8d58a4e852cf4a9eb345d1dd540ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0707e23aee79f2923de2183cce1e2b3') in 0.050399 seconds 
+  Import took 0.074644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (Copper) HQ.prefab
+  artifactKey: Guid(d52cf7a58a2762044908ea7e5f695d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (Copper) HQ.prefab using Guid(d52cf7a58a2762044908ea7e5f695d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa66efe4f6326a6b4496df6e24d834a') in 0.050784 seconds 
+  Import took 0.056688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab
+  artifactKey: Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver.prefab using Guid(b5c250cf857e87546bfae19a751f3c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd262d5f3168a917d6d4d5b7d9b540f5') in 0.024843 seconds 
+  Import took 0.029562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell (HQ).FBX
+  artifactKey: Guid(66e222e65b3f6b845ab8215bb7165eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Shell (HQ).FBX using Guid(66e222e65b3f6b845ab8215bb7165eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27470ce40c1e0a94b45daeb0f0ff2a16') in 0.073363 seconds 
+  Import took 0.078324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_LOD0.FBX
+  artifactKey: Guid(070981638287eb24d884c0636120042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_LOD0.FBX using Guid(070981638287eb24d884c0636120042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea8b3bba582e8c1d2b4382e105c0f80') in 0.119417 seconds 
+  Import took 0.124164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) LP.prefab
+  artifactKey: Guid(dbe398fbe3adebc4484ea50382e51ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) LP.prefab using Guid(dbe398fbe3adebc4484ea50382e51ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61988a80f1ba2d48f91ffec40a707a44') in 0.067334 seconds 
+  Import took 0.073217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab
+  artifactKey: Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Base Prefabs/Bullet_Casing.prefab using Guid(a737d62f4ff0b854a9d767507f039686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46d85cedd26e0542354343641f5c9c9') in 0.013643 seconds 
+  Import took 0.018481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.prefab
+  artifactKey: Guid(3dd9cf2e209c504448f1c4c6835675cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Effects/MuzzleFlash.prefab using Guid(3dd9cf2e209c504448f1c4c6835675cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317c9bbc81f01bfa58e0e0bbd48918a7') in 0.153784 seconds 
+  Import took 0.158978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell (LP).FBX
+  artifactKey: Guid(958601ab365f54044a07f981f166d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell (LP).FBX using Guid(958601ab365f54044a07f981f166d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f486f6bc74e45f4861e9648262a297d8') in 0.060618 seconds 
+  Import took 0.065431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 9x19/Mesh/Bullet 9x19.FBX
+  artifactKey: Guid(208838298cec0b24891391cad46ba4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 9x19/Mesh/Bullet 9x19.FBX using Guid(208838298cec0b24891391cad46ba4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c974c790ea0f3470f5ec266be25b22') in 0.114012 seconds 
+  Import took 0.120367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell_LOD0.FBX
+  artifactKey: Guid(6697edf4e1b576f40a940f380637cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Mesh/Shell_LOD0.FBX using Guid(6697edf4e1b576f40a940f380637cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e794f44a37e54bd8c2d98cc41ec1564') in 0.045971 seconds 
+  Import took 0.050581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19 Part 2.prefab
+  artifactKey: Guid(4a97d1271c5566d4a82c7cd618f7e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 9x19/Prefabs/Bullet 9x19 Part 2.prefab using Guid(4a97d1271c5566d4a82c7cd618f7e87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a76ffaff787aab9cff8349d8cf8578') in 0.043951 seconds 
+  Import took 0.048839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell_LOD0.FBX
+  artifactKey: Guid(c5f441d0513b476449d2f07a4d9a0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Shell_LOD0.FBX using Guid(c5f441d0513b476449d2f07a4d9a0fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6175ed690e4f5be1eaeea8b035e81f76') in 0.064836 seconds 
+  Import took 0.069850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) HQ.prefab
+  artifactKey: Guid(14e8966d9de08fb4ea1cb7d5e9ead89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (DarkZinc) HQ.prefab using Guid(14e8966d9de08fb4ea1cb7d5e9ead89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7524c250bd326e80ca22aaf5f08f3dc8') in 0.049786 seconds 
+  Import took 0.071963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045_LOD0.FBX
+  artifactKey: Guid(b34ced7e203cb1f45907707a31827aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/Low-Poly/Bullet_045_LOD0.FBX using Guid(b34ced7e203cb1f45907707a31827aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac687762d50fd2d8e0203199687005d1') in 0.104287 seconds 
+  Import took 0.108995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab
+  artifactKey: Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Handgun_Silver.prefab using Guid(5c59210965ffbcc4093fe99a29edb777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592f3c5c635b26bbc89a368144873f30') in 0.041571 seconds 
+  Import took 0.046405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx
+  artifactKey: Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/Meshes/M1911 Magazine.fbx using Guid(40ea87bfb6dc64349a6b3363f1955b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eeedbb768dc741c95cc6357a71a9e1') in 0.060283 seconds 
+  Import took 0.064806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (Copper) LP.prefab
+  artifactKey: Guid(3d7a26518505d994eb37dbb785efb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Bullet-7.62 (Copper) LP.prefab using Guid(3d7a26518505d994eb37dbb785efb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1331cb4a964acd7df5829ed7b70797c') in 0.049791 seconds 
+  Import took 0.055742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-Copper.prefab
+  artifactKey: Guid(0a138e478044fd94eb3af2f93e075513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62/Prefabs/Shell-Copper.prefab using Guid(0a138e478044fd94eb3af2f93e075513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ac7e78db4d19920d12ed2fe5db5a7c') in 0.035601 seconds 
+  Import took 0.040191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045_LOD0.FBX
+  artifactKey: Guid(b63d27f6ab29dba41894c8305a3efd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Props/Ammunition/Bullet 0.45/Mesh/High-Poly/Bullet_045_LOD0.FBX using Guid(b63d27f6ab29dba41894c8305a3efd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9081cf57dd44bcf533a091b3a57af38') in 0.085896 seconds 
+  Import took 0.090616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab
+  artifactKey: Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/Modern Guns - Handgun/_Prefabs/Handgun Silver/M1911 Magazine_Silver_Full.prefab using Guid(383b1a391f98da5478a7dddc283414a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f96b0252fba6cee2ca6b149645a5345') in 0.035002 seconds 
+  Import took 0.056220 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
